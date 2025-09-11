@@ -11,11 +11,13 @@ public class Main {
 
         System.out.print("Quantos metros o terro possui de lateral: ");
         double lateral = ler.nextDouble();
+
+        System.out.print("Informe o valor por metro quadrado: ");
+        double valorm2 = ler.nextDouble();
         
         double area = frente * lateral;
         
-        double valorm2 = 235.30;
-        
+             
         double valor_total = area * valorm2;
 
         System.out.println("Área total do terreno de " + frente + " mts de frente com " + lateral + " mts de lateral é: " + area +  " mts")
