@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+    color: #2d3436;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #35424a;
+    color: #FFF;
+    padding-top: 10px;
+    min-height: 70px;
+    border-bottom: 5px solid #e8491d;
+}
+
+header h1 {
+    text-align: center;
+    margin: 0;
+    color: #a857b8;
+    padding-bottom: 10px;
+}
+
+header nav {
+    text-align: center;
+}
+
+header nav ul {
+    padding: 0;
+    list-style: none;
+}
+
+.list-item {
+    display: inline;
+}
+
+.list-item a {
+    color: #FFF;
+    text-decoration: none;
+    font-size: 18px;
+    margin: 0 5px;
+}
+
+.list-item a:hover {
+    color: #e8491d;
+}
+
+
+.sobre-min {
+    margin-bottom: 40px;
+}
+
+.sobre-min img {
+    display: block;
+    margin: 10px auto;
+}
+
+.sobre-min h2 {
+    color: #35424a;
+    text-align: center;
+}
+
+.sobre-min p {
+    text-align: center;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #e8491d;
+}
+
+.habilidades {
+    border-bottom: 2px solid #e8491d;
+    padding-bottom: 2%;
+}
+
+.habilidades h2{
+    color: #35424a;
+    text-align: center;
+}
+
+.habilidades ol {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+.habilidades ol li {
+    border: 1px solid #585757;
+    min-width: 100px;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 10px;
+    padding: 10px;
+    cursor: pointer;
+    transition: all .8s;
+}
+
+.habilidades ol li:hover {
+    -webkit-box-shadow: 3px 3px 12px 1px rgba(0,0,0,0.7); 
+    box-shadow: 3px 3px 12px 1px rgba(0,0,0,0.7);
+}
+
+.projetos {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+.projetos h2 {
+    width: 100%;
+}
+
+.projetos div {
+    width: 24%;
+    padding: 2%;
+    border-radius: 20px;
+    margin-bottom: 2%;
+    box-shadow: 3px 3px 18px 1px rgba(0,0,0,0.5);
+    transition: 0.5s all;
+}
+
+.projetos div:hover {
+    transform: scale(1.05);
+}
+
+.projetos div img {
+    width: 100%;
+}
+.projetos div h3 {
+    font-size: 1.5rem;
+    color: #3a4a50;
+}
+
+.projetos div button {
+    margin-top: 20px;
+    outline: none;
+    background: #0abde3;
+    color: #FFF;
+    font-weight: bold;
+    border-radius: 8px;
+    border: 2px solid transparent;
+    transition: 0.5s all;
+    letter-spacing: 3px;
+    padding: 10px;
+    cursor: pointer;
+}
+.projetos div button:hover {
+    border-color: #2a8195;
+}
+
+.contato {
+
+}
+
+.contato h2 {
+    width: 100%;
+}
+
+.contato form {
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    padding: 2%;
+    border-radius: 20px;
+    box-shadow: 3px 3px 18px 1px rgba(0,0,0,0.5);
+    background-color: rgba(179, 179, 179, 0.1);
+}
+
+.contato form label {
+    font-size: 1.3rem;
+    margin-bottom: 5px;
+}
+
+.form-input {
+    margin-bottom: 15px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #2d3436;
+    outline: none;
+} 
+
+.form-input:focus {
+    outline: none;
+    border-color: #0abde3;
+}
+
+.contato form button {
+    padding: 10px;
+    border-radius: 10px;
+    background: #0abde3;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: 0.5s all;
+}
+
+.contato form button:hover {
+    background: #0fa1c2;
+}
+
+footer {
+    margin-top: 50px;
+    padding: 5px;
+    display: block;
+    background-color: #8dccdd;
+    color: #35424a;
+    text-align: center;
+}
+
+p {
+    margin: 0;
+}
+
+/* @media (max-width: 700px) {
+    .habilidades ol {
+        flex-direction: column;
+        width: 100%;
+        background-color: red;
+    }
+    .projetos div {
+        width: 49%;
+    }
+}
+
+@media (max-width: 400px) {
+    .projetos div {
+        width: 100%;
+    }
+} */
