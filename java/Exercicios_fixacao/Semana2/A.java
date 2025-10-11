@@ -13,6 +13,7 @@ public class A {
 
         System.out.println("A sua temperatura convertida para Farenheint é: " + F + " graus ")
 ;
+ler.close();
 
     }
 }

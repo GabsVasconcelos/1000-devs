@@ -25,7 +25,7 @@ public class N {
         System.out.println("o valor da soma dos quadrados dos três valores lidos é: " + total);
         System.out.println("e o quadrado do valor da soma é: " + total_final);
 ;
-
+ler.close();
     }
 }
 

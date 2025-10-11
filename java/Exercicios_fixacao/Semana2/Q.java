@@ -14,7 +14,7 @@ public class Q {
 
         System.out.println("A ÁREA DA CIRCUNFERÊNCIA É DE:  " + A);
 ;
-
+ler.close();
     }
 }
 

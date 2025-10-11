@@ -22,7 +22,7 @@ public class M {
 
         System.out.println("o valor da soma dos quadrados dos três valores lidos é: " + total);
 ;
-
+ler.close();
     }
 }
 

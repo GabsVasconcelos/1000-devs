@@ -38,7 +38,7 @@ public class G {
 
         System.out.println("O RESULTADO DAS MULTIPLICAÇÃO ENTRE AS VARIAVEIS É  A * B = "  + calc11 + ", A * C = " + calc22 + ", A * D = " + calc33 + ", B * C = " + calc44 + ", B * D = " + calc55 + ", C * D = " + calc66);
 ;
-
+ler.close();
     }
 }
 

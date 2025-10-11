@@ -13,7 +13,7 @@ public class I {
 
         System.out.println("o valor elevado ao quadrado é " + valor_quadrado);
 ;
-
+ler.close();
     }
 }
 

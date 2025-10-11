@@ -21,7 +21,7 @@ public class F {
         
         System.out.println("Os valores trocados são: A = " + A + " B = " + B);
 ;
-
+ler.close();
     }
 }
 

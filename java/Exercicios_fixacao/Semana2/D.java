@@ -18,7 +18,7 @@ public class D {
 
         System.out.println("Se a velocidade média é de " + velocidade + " e o tempo gasto na viagem é de " + tempo + " a distância percorrida será de " + distancia + " e você utilizará " + litros_usados + "litros de combustível na viagem")
 ;
-
+ler.close();
     }
 }
 

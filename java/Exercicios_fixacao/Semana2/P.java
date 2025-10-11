@@ -16,7 +16,7 @@ public class P {
  
         System.out.println("O SALARIO COM REAJUSTE SERÁ DE R$ " + NS);
 ;
-
+ler.close();
     }
 }
 

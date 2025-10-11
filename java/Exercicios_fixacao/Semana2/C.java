@@ -16,7 +16,7 @@ public class C {
 
         System.out.println("A lata tem " + volume + " cm³ de volume")
 ;
-
+ler.close();
     }
 }
 

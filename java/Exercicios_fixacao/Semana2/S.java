@@ -26,7 +26,7 @@ public class S {
         System.out.println("\nA DIVISÃO DOS NÚMEROS RESULTA EM " + div );
 
 ;
-
+ler.close();
     }
 }
 

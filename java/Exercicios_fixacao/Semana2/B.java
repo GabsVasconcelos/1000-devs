@@ -13,7 +13,7 @@ public class B {
 
         System.out.println("A sua temperatura convertida para Celsius é: " + c + " graus ")
 ;
-
+ler.close();
     }
 }
 

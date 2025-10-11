@@ -18,7 +18,7 @@ public class J {
 
         System.out.println("o quadrado do valor da diferença entre A e B é " + valor_quadrado );
 ;
-
+ler.close();
     }
 }
 

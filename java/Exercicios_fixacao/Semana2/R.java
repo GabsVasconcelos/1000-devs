@@ -37,7 +37,7 @@ public class R {
         System.out.println("\nO PERCENTUAL DE VOTOS DO CANDIDATO B FOI DE " + perc_b + "%" );
         System.out.println("\nO PERCENTUAL DE VOTOS DO CANDIDATO C FOI DE " + perc_c + "%" );
 ;
-
+ler.close();
     }
 }
 

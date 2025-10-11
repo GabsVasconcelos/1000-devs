@@ -16,7 +16,7 @@ public class L {
 
         System.out.println("O valor da conversão em dólar (US$): " + real_total);
 ;
-
+ler.close();
     }
 }
 

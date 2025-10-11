@@ -20,7 +20,7 @@ public class E {
         
         System.out.println("O valor da prestação está em R$ " + prestacao)
 ;
-
+ler.close();
     }
 }
 
